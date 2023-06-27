@@ -2,7 +2,8 @@ import { supabase } from '@/util/supabase'
 import Link from 'next/link';
 
 export default function Home({ lessons }) {
-  console.log({ lessons });
+  // get logged in user
+  // console.log(user)
 
   return (
     <main
